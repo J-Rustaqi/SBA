@@ -47,7 +47,7 @@ a{
         transform: translateX(0) rotate(0deg);
     }
     25% {
-        transform: translateX(15in) rotate(180deg);
+        transform: translateX(14in) rotate(180deg);
     }
     50% {
         transform: translateX(0) rotate(360deg);
@@ -127,7 +127,7 @@ p{
     width: 33%;
     height: 660%;
     margin: 2px;
-    box-shadow: 0 4px 8px rgba(0, 0, 1, 1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 1, 1); */
     padding-left: 30px;
 }
 
@@ -188,6 +188,7 @@ table {
 
   .signupContainer{
     border: 1px solid blue;
+    border: 1px solid transparent;
     margin-left: 35;
   }
 
